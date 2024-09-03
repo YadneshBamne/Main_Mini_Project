@@ -20,12 +20,12 @@ const Navbar = () => {
           {" "}
           {/* Logo section */}
           {/* Image component for displaying logo */}
-          <Image
+          <Link href={"./"}><Image
             src={"/letter-h.png"} // Image source
             width={50} // Image width
             height={50} // Image height
             className="-my-3 mb-4 rounded-xl " // Additional CSS classes
-          />
+          /></Link>
           
         </div>
         <div class="li-items">

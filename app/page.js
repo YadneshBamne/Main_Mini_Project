@@ -6,7 +6,7 @@ import Animation from "./Animation - 1723199716467.json";
 import Typewriter from "typewriter-effect";
 import Link from "next/link";
 import Head from "next/head";
-import { Oswald, Dancing_Script,Roboto_Slab } from "next/font/google";
+import { Oswald, Dancing_Script, Roboto_Slab } from "next/font/google";
 import Slider from "@madzadev/image-slider";
 import "@madzadev/image-slider/dist/index.css";
 
@@ -24,11 +24,21 @@ const RS = Roboto_Slab({
   weight: ["400"],
 });
 const images = [
-  { url: "https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:10/e_saturation:10/v1554802583/Website/Residences/Boston/1.jpg" },
-  { url: "https://i0.wp.com/stanzaliving.wpcomstaging.com/wp-content/uploads/2022/04/d601b-hostels-vs-pgs-min.jpg?fit=4000%2C3000&ssl=1" },
-  { url: "https://play-zelo-production.s3.ap-south-1.amazonaws.com/uploads/center_caption_photo/photo/5e41258f09ba9955e4a4c247/2.jpg" },
-  { url: "https://img.theweek.in/content/dam/week/news/biz-tech/images/2018/7/27/pg-accomodation.jpg" },
-  { url: "https://teja12.kuikr.com/is/p/f/800x600/guide/wp-content/uploads/2020/10/PG-for-rent4.jpg" },
+  {
+    url: "https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:10/e_saturation:10/v1554802583/Website/Residences/Boston/1.jpg",
+  },
+  {
+    url: "https://i0.wp.com/stanzaliving.wpcomstaging.com/wp-content/uploads/2022/04/d601b-hostels-vs-pgs-min.jpg?fit=4000%2C3000&ssl=1",
+  },
+  {
+    url: "https://play-zelo-production.s3.ap-south-1.amazonaws.com/uploads/center_caption_photo/photo/5e41258f09ba9955e4a4c247/2.jpg",
+  },
+  {
+    url: "https://img.theweek.in/content/dam/week/news/biz-tech/images/2018/7/27/pg-accomodation.jpg",
+  },
+  {
+    url: "https://teja12.kuikr.com/is/p/f/800x600/guide/wp-content/uploads/2020/10/PG-for-rent4.jpg",
+  },
 ];
 
 const page = () => {
@@ -52,13 +62,20 @@ const page = () => {
 
         <div className="-mt-10 min-h-screen grid grid-cols-2 text-center items-center gap-60">
           <div class="left text-7xl">
-            <div className="ml-10"><span className={RS.className}>HOLMES</span></div>
-            <div className="text-2xl ml-10"><span className={DS.className}>PG Accomodation - Safe and Secure Solution</span></div>
+            <div className="ml-10">
+              <span className={RS.className}>HOLMES</span>
             </div>
+            <div className="text-2xl ml-10">
+              <span className={DS.className}>
+                PG Accomodation - Safe and Secure Solution
+              </span>
+            </div>
+          </div>
           <div class="right" className="">
-          <Slider loop={true}
+            {/* <Slider loop={true}
              autoPlay={true}
-              autoPlayInterval={4000} showArrowControls={false} showDotControls={false} imageList={images} width={600} height={300} className="rounded-3xl" />
+              autoPlayInterval={4000} showArrowControls={false} showDotControls={false} imageList={images} width={600} height={300} className="rounded-3xl" /> */}
+          <img src="office-building.png" className="h-80 items-end"/>
           </div>
         </div>
 
@@ -157,7 +174,7 @@ const page = () => {
                 <h2 class="text-gray-900 dark:text-white text-3xl font-extrabold mb-2">
                   We Provide easy{" "}
                   <span className="text-amber-400">solutions</span> for your{" "}
-                  <span className="text-green-700">PG finding journey</span>
+                  <span className="text-green-700">PG finding experience</span>
                 </h2>
                 <p class="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">
                   Locate one of the best and most trusted PG's near your
@@ -205,7 +222,7 @@ const page = () => {
                       d="M5 4 1 8l4 4m10-8 4 4-4 4M11 1 9 15"
                     />
                   </svg>
-                  Code
+                  Testimonials
                 </a>
                 <h2 class="text-white dark:text-white text-3xl font-extrabold mb-2">
                   Read more about us from our{" "}
