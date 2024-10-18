@@ -128,7 +128,7 @@ const page = () => {
           />
         </div>
         <div class="pg-info" className="grid grid-rows-5 mt-3">
-          <div className="text-3xl mt-5 text-stone-950">Blue Star PGs</div>
+          <div className="text-3xl mt-5 text-stone-950">Unnati Blues PGs</div>
           <div className="mb-5">Manpada Thane</div>
           <div className="text-3xl mb-6"><span className="text-black-500">Rs.5000</span> per month</div>
           <div></div>
@@ -150,7 +150,7 @@ const page = () => {
           />
         </div>
         <div class="pg-info" className="grid grid-rows-5 mt-3">
-          <div className="text-3xl mt-5 text-stone-950">Blue Star PGs</div>
+          <div className="text-3xl mt-5 text-stone-950">Rohit Shah PGs</div>
           <div className="mb-5">Manpada Thane</div>
           <div className="text-3xl mb-6"><span className="text-black-500">Rs.9000</span> per month</div>
           <div></div>
@@ -170,7 +170,7 @@ const page = () => {
           />
         </div>
         <div class="pg-info" className="grid grid-rows-5 mt-3">
-          <div className="text-3xl mt-5 text-stone-950">Ram Complex PGs</div>
+          <div className="text-3xl mt-5 text-stone-950">Radhe Radhe Boys PGs</div>
           <div className="mb-5">Manpada Thane</div>
           <div className="text-3xl mb-6"><span className="text-black-500">Rs.4000</span> per month</div>
           <div></div>
@@ -178,6 +178,8 @@ const page = () => {
         </div>
         </div>
       </div>
+
+      
     </div>
   );
 };

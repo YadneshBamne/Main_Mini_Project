@@ -93,7 +93,7 @@ const page = () => {
             <span className="text-blue-300">Your</span> Home{" "}
             <span className="text-blue-300">AWAY</span> From
           </h1>
-          <div className="w-[10px] h-[50px]"></div>
+          <div className="w-[10px] h-[50px]"></div>  
           <span className="text-blue-300">
             <span className={DS.className}>
               <Typewriter

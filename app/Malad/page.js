@@ -128,7 +128,7 @@ const page = () => {
           />
         </div>
         <div class="pg-info" className="grid grid-rows-5 mt-3">
-          <div className="text-3xl mt-5 text-stone-950">Blue Star PGs</div>
+          <div className="text-3xl mt-5 text-stone-950">Ronak West PGs</div>
           <div className="mb-5">Manpada Thane</div>
           <div className="text-3xl mb-6"><span className="text-black-500">Rs.5000</span> per month</div>
           <div></div>
@@ -150,7 +150,7 @@ const page = () => {
           />
         </div>
         <div class="pg-info" className="grid grid-rows-5 mt-3">
-          <div className="text-3xl mt-5 text-stone-950">Blue Star PGs</div>
+          <div className="text-3xl mt-5 text-stone-950">Kanye west PGs</div>
           <div className="mb-5">Manpada Thane</div>
           <div className="text-3xl mb-6"><span className="text-black-500">Rs.9000</span> per month</div>
           <div></div>
@@ -170,7 +170,27 @@ const page = () => {
           />
         </div>
         <div class="pg-info" className="grid grid-rows-5 mt-3">
-          <div className="text-3xl mt-5 text-stone-950">Ram Complex PGs</div>
+          <div className="text-3xl mt-5 text-stone-950">Sam's Apartment PGs</div>
+          <div className="mb-5">Manpada Thane</div>
+          <div className="text-3xl mb-6"><span className="text-black-500">Rs.4000</span> per month</div>
+          <div></div>
+          <div className="flex"><div><a href="./OwnerInfo"><button type="button" class="text-white bg-slate-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Get Owner Info</button></a><button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Select</button></div></div>
+        </div>
+        </div>
+      </div>
+
+      <div className="flex justify-center align-center items-center mt-20">
+        <div className=" w-1/2 h-72 flex bg-white rounded-xl hover:before:bg-white-500 border-white-500 relative overflow-hidden border border-white-600 px-3 text-white-500 shadow-2xl transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 efore:h-full before:bg-blue-500 before:transition-all before:duration-500 hover:shadow-slate-950 hover:before:left-0">
+        <div class="pg-img" className="">
+          <Image
+          src="/pg1.png"
+          width={400}
+          height={400}
+          className="border-gray-800 border-4 m-5"
+          />
+        </div>
+        <div class="pg-info" className="grid grid-rows-5 mt-3">
+          <div className="text-3xl mt-5 text-stone-950">Grey Heights PGs</div>
           <div className="mb-5">Manpada Thane</div>
           <div className="text-3xl mb-6"><span className="text-black-500">Rs.4000</span> per month</div>
           <div></div>

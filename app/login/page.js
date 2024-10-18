@@ -35,7 +35,7 @@ export default function LoginForm() {
 
   return (
     <div className="grid place-items-center h-screen bg-white">
-      <div className="shadow-lg p-5 rounded-lg border-t-4 border-white">
+      <div className="shadow-lg p-5 rounded-lg border border-black">
         <h1 className="text-xl text-black font-bold my-4">Login</h1>
 
         <form onSubmit={handleSubmit} className="flex flex-col gap-3 rounded-full text-black">
@@ -49,7 +49,7 @@ export default function LoginForm() {
             type="password"
             placeholder="Password"
           />
-          <button className="bg-white rounded-full text-black font-bold cursor-pointer px-6 py-2">
+          <button className="bg-yellow-50 rounded-full text-black font-bold cursor-pointer px-6 py-2">
             <h1 className="text-black">Login</h1>
           </button>
 
