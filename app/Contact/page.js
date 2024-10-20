@@ -2,11 +2,13 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div className='min-h-screen bg-yellow-50'>
+    <div className='min-h-screen bg-white'>
       <div className='w-full h-80 items-center grid grid-rows-2 p-10 text-black'>
       <div className='flex justify-center text-6xl'>
         Contact Us
       </div>
+
+      <div classname="grid grid-cols-3">
       <div className='flex justify-center gap-5 w-full'>
       <div className=''>
         <div><span><b>E-Mail:</b></span><a href=''> goursheteatharva@gmail.com</a></div>
@@ -25,6 +27,9 @@ const page = () => {
         <div><span><b>Mobile No.:</b></span> 9372291162</div>
       </div>
       </div>
+      </div>
+
+
       </div>
     </div>
   )
