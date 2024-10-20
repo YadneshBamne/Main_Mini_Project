@@ -57,7 +57,7 @@ const page = () => {
         ></link>
         Outfit
       </Head>
-      <div className="min-h-screen bg-white text-black">
+      <div className="min-h-screen bg-yellow-50 text-black">
         <div className="flex grid-cols-2 justify-center"></div>
 
         <div className="-mt-10 min-h-screen grid grid-cols-2 text-center items-center gap-60">
