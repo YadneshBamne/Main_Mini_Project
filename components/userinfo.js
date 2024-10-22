@@ -67,7 +67,7 @@ export default function UserInfo() {
           <div className="min-h-screen bg-white text-black">
             <div className="flex grid-cols-2 justify-center"></div>
 
-            <div className="-mt-10 min-h-screen grid grid-cols-2 text-center items-center gap-60">
+            <div className=" min-h-screen grid grid-cols-2 text-center items-center gap-60">
               <div class="left text-7xl">
                 <div className="ml-10">
                   <span className={RS.className}>HOLMES</span>

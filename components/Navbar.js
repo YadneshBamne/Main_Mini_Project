@@ -4,6 +4,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Oswald } from "next/font/google";
 
+
+
+
 const Nerko = Oswald({
   subsets: ["cyrillic"],
   weight: ["400"],
@@ -48,21 +51,17 @@ const Navbar = () => {
               <Link href={"/Contact"}>
                 <li className="mx-12 text-black">Contact Us</li>
               </Link>
+              <Link href={"/ "}>
+              <Image
+                src={"/shopping-cart.png"} // Image source
+                width={50} // Image width
+                height={50} // Image height
+                className="-my-3 mb-4 rounded-xl " // Additional CSS classes
+              />
+              </Link>
             </ul>
           </div>
-          <Link href={"./register"}>
-            <div class="login-btn">
-              {" "}
-              {/* Login button section */}
-              {/* Button for login */}
-              <button
-                type="button"
-                class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700 -my-5"
-              >
-                Register / Log In
-              </button>
-            </div>
-          </Link>
+          
         </div>
       </div>
     </nav>

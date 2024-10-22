@@ -49,7 +49,7 @@ export default function LoginForm() {
             type="password"
             placeholder="Password"
           />
-          <button className="bg-yellow-50 rounded-full text-black font-bold cursor-pointer px-6 py-2">
+          <button className="bg-yellow-50 rounded-full text-black font-bold cursor-pointer px-6 py-2 shadow-lg rounded-full">
             <h1 className="text-black">Login</h1>
           </button>
 
